@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "689361446167",
+    "project_id": "shoesapp-db521",
+    "storage_bucket": "shoesapp-db521.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689361446167:android:c0669e7ffa4139c63d8352",
+        "android_client_info": {
+          "package_name": "com.example.codigo6_states"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689361446167-iinahgvt7rik8k7edf0ntdht1ulusifc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJjF3NLfVwzQaDp6RDDJItm_D07bh2tfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689361446167-9eqc0f69795gcfnv4ssner446ah86h4b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "689361446167-i6555ksb2sfntagintl3qs35g0nlfktk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pe.codigo.shoesapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689361446167:android:a6e50bbd22c8e7383d8352",
+        "android_client_info": {
+          "package_name": "pe.aurorastudio.codigo6_notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689361446167-iinahgvt7rik8k7edf0ntdht1ulusifc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJjF3NLfVwzQaDp6RDDJItm_D07bh2tfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689361446167-9eqc0f69795gcfnv4ssner446ah86h4b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "689361446167-i6555ksb2sfntagintl3qs35g0nlfktk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pe.codigo.shoesapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689361446167:android:8d3c8e35e44086bc3d8352",
+        "android_client_info": {
+          "package_name": "pe.aurorastudio.shoesappclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689361446167-ob10enbkcods626jotufc9jki19nmh5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.aurorastudio.shoesappclient",
+            "certificate_hash": "413ec0becc5d44ae6b07915c90eb84b346313ddf"
+          }
+        },
+        {
+          "client_id": "689361446167-iinahgvt7rik8k7edf0ntdht1ulusifc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJjF3NLfVwzQaDp6RDDJItm_D07bh2tfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689361446167-9eqc0f69795gcfnv4ssner446ah86h4b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "689361446167-i6555ksb2sfntagintl3qs35g0nlfktk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pe.codigo.shoesapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

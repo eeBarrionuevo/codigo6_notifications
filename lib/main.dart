@@ -49,7 +49,9 @@ class _MyAppState extends State<MyApp> {
 
   void showLocalNotification() async {
     AndroidInitializationSettings androidInitializationSettings =
-        AndroidInitializationSettings("@mipmap/ic_launcher");
+        AndroidInitializationSettings(
+      "@mipmap/ic_launcher",
+    );
 
     DarwinInitializationSettings darwinInitializationSettings =
         DarwinInitializationSettings(

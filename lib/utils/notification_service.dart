@@ -5,10 +5,30 @@ class NotificationService {
 
   static initMessaging() async {
     String token = await firebaseMessaging.getToken() ?? "-";
+    print(token);
     FirebaseMessaging.onMessage.listen(_onMessage);
+    FirebaseMessaging.onBackgroundMessage(_onBackgroundMessage);
+    FirebaseMessaging.onMessageOpenedApp.listen(_onMessageOpenedApp);
   }
 
   static _onMessage(RemoteMessage message) async {
+    print(1);
+    if (message.notification != null) {
+      print(message.notification!.title);
+      print(message.notification!.body);
+    }
+  }
+
+  static Future _onBackgroundMessage(RemoteMessage message) async {
+    print(2);
+    if (message.notification != null) {
+      print(message.notification!.title);
+      print(message.notification!.body);
+    }
+  }
+
+  static Future _onMessageOpenedApp(RemoteMessage message) async {
+    print(3);
     if (message.notification != null) {
       print(message.notification!.title);
       print(message.notification!.body);

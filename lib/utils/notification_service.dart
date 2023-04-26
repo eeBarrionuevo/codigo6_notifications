@@ -6,6 +6,7 @@ class NotificationService {
   static initMessaging() async {
     String token = await firebaseMessaging.getToken() ?? "-";
     print(token);
+
     firebaseMessaging.subscribeToTopic("PEPE");
     firebaseMessaging.subscribeToTopic("PEPE2");
     FirebaseMessaging.onMessage.listen(_onMessage);
